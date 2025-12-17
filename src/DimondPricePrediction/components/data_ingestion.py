@@ -3,7 +3,7 @@ import numpy as np
 
 import os
 import sys
-sys.path.append("C:\\Users\\SAURABH SRIVASTAVA\\Desktop\\firstENDTOEND\\src\\DimondPricePrediction")
+# sys.path.append("src") # Path handled by entry point
 
 from ..logger import logging as logger
 

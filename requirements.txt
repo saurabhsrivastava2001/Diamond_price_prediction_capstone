@@ -1,5 +1,6 @@
-pandas 
-scikit-learn 
+pandas
+scikit-learn
 numpy
 ipykernel
-seaborn 
+seaborn
+flask

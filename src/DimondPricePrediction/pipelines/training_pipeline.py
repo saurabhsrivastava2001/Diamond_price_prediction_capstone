@@ -1,16 +1,13 @@
 import os
 import sys
 
-sys.path.append("D:\\Desktop\\DiamondPricePrediction-main\\src")
+# sys.path handled by entry point
 
 from DimondPricePrediction.components.data_ingestion import DataIngestion
 from DimondPricePrediction.components.data_transformation import DataTransformation
 from DimondPricePrediction.components.model_trainer import ModelTrainer
-
-sys.path.append("D:\\Desktop\\DiamondPricePrediction-main\\src\\DimondPricePrediction")
 from DimondPricePrediction.logger import logging as logger
-
-from exception import Customexception
+from DimondPricePrediction.exception import Customexception
 import pandas as pd
 
 

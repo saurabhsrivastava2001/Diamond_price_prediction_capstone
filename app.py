@@ -1,5 +1,7 @@
+import os
 import sys
-sys.path.append("D:\\Desktop\\DiamondPricePrediction-main\\src")
+# sys.path handled by entry point if run correctly, or add relative
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
 from DimondPricePrediction.pipelines.prediction_pipeline import CustomData , PredictPipeline
 

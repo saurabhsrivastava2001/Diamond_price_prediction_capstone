@@ -11,12 +11,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OrdinalEncoder,StandardScaler
 
 
-sys.path.append("C:\\Users\\SAURABH SRIVASTAVA\\Desktop\\firstENDTOEND\\src\\DimondPricePrediction")
+# sys.path handled by entry point
 import logging as logger
 
 from ..exception import Customexception
 
-sys.path.append("C:\\Users\\SAURABH SRIVASTAVA\\Desktop\\firstENDTOEND\\src\\DimondPricePrediction\\utils")
+
 
 from ..utils.utils import save_object
 

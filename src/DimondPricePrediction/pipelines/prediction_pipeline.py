@@ -26,6 +26,8 @@ class PredictPipeline:
             scaled_data=preprocessor.transform(features)
             
             pred=model.predict(scaled_data)
+            # Clamp negative predictions to dataset minimum ($326)
+            pred = [max(326.0, p) for p in pred]
             return pred
             
             

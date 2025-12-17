@@ -6,12 +6,12 @@ import os
 import sys
 
 
-sys.path.append("C:\\Users\\SAURABH SRIVASTAVA\\Desktop\\firstENDTOEND\\src\\DimondPricePrediction")
+# sys.path handled by entry point
 from ..logger  import logging as logger
 
 from ..exception import Customexception
 
-sys.path.append("C:\\Users\\SAURABH SRIVASTAVA\\Desktop\\firstENDTOEND\\src\\DimondPricePrediction\\utils")
+
 
 from ..utils.utils import save_object
 from ..utils.utils import evaluate_model
